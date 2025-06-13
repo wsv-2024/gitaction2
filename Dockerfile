@@ -42,8 +42,8 @@ RUN curl -sSL -o runner.tar.gz \
 # ───────────────────────────────────────────────────────────────
 # 5) Feste Runner-Parameter (bei Bedarf anpassen)
 # ───────────────────────────────────────────────────────────────
-ENV GH_RUNNER_URL="https://github.com/wsv-2024/yolo-tracking-image-linux" \
-    GH_RUNNER_NAME="yolo-runner-1" \
+ENV GH_RUNNER_URL="https://github.com/wsv-2024/yolo-tracking-multi-image-linux" \
+    GH_RUNNER_NAME="yolo-runner-2" \
     GH_RUNNER_WORKDIR="_work" \
     GH_RUNNER_LABELS="self-hosted,docker,linux"
 
